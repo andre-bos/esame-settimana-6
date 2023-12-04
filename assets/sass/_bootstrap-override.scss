@@ -1,5 +1,19 @@
+// Importo le funzioni e le variabili di Bootstrap
+@import '../../node_modules/bootstrap/scss/functions';
 
+// Colori
+$white: #fff;
+$primary: #141414;
+$secondary: #0c0c0c;
 
-// Importo Bootstrap 5
+// Dropdown
+$dropdown-font-size:                1.5rem;
+$dropdown-min-width:                250px;
+$dropdown-bg:                       rgba(0, 0, 0, 0.796);
+$dropdown-link-color:               $white;
+$dropdown-padding-x:                2em;
+$dropdown-padding-y:                .5em;
+$dropdown-border-radius:            0;
 
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'

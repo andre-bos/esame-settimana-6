@@ -1,0 +1,8 @@
+/* _dropdown.scss */
+
+.dropdown-menu {
+    border-top: 3px solid $white;
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.111);
+    }
+}
